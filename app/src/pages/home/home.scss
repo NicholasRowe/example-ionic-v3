@@ -1,0 +1,34 @@
+page-home {
+
+
+  ion-content {
+    background-color: color($colors, primary) !important;
+  }
+
+  .c-logo {
+    margin: 0 auto;
+    display: block;
+    max-width: 70%;
+    margin: 80px auto 50px auto;
+  }
+
+  .c-legal {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: $white;
+    left: 0;
+    right: 0;
+
+    p {
+      font-size: 13px;
+      &:first-child {
+        margin-bottom: 4px;
+      }
+    }
+  }
+
+
+
+}
